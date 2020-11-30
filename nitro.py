@@ -20,7 +20,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content.startswith('!니트로'):
+    if message.content.startswith('빈센아 니트로'):
         ranNitro = ""
         for i in range(0, 16):
             ranNitro += str(random.choice(string.ascii_letters))
